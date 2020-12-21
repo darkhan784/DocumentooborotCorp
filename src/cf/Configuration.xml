@@ -189,7 +189,11 @@
 		<ChildObjects>
 			<Language>Русский</Language>
 			<SessionParameter>ТекущийПользователь</SessionParameter>
-			<Role>Администратор</Role>
+			<Role>ПолныеПрава</Role>
+			<Role>ЧтениеДокументов</Role>
+			<Role>ИзменениеДокументов</Role>
+			<Role>ЧтениеКонтрагентов</Role>
+			<Role>ИзменениеКонтрагентов</Role>
 			<Catalog>Валюты</Catalog>
 			<Catalog>Организации</Catalog>
 			<Catalog>Подразделения</Catalog>
@@ -198,7 +202,8 @@
 			<Catalog>ФизическиеЛица</Catalog>
 			<Catalog>КонтактныеЛицаКонтрагентов</Catalog>
 			<Catalog>Файлы</Catalog>
-			<Catalog>Документы</Catalog>
+			<Catalog>ВнутренниеДокументы</Catalog>
+			<Catalog>ВидыДокументов</Catalog>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
