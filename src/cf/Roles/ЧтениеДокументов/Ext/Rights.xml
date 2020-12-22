@@ -4,6 +4,20 @@
 	<setForAttributesByDefault>true</setForAttributesByDefault>
 	<independentRightsOfChildObjects>false</independentRightsOfChildObjects>
 	<object>
+		<name>Catalog.ВидыДокументов.TabularSection.РабочаяГруппа.Attribute.Рецензент</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.ВидыДокументов.TabularSection.РабочаяГруппа</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>Configuration.ДокументооборотИТМО</name>
 		<right>
 			<name>ThinClient</name>
@@ -55,6 +69,25 @@
 		<right>
 			<name>Read</name>
 			<value>true</value>
+			<restrictionByCondition>
+				<field>Code</field>
+				<field>DataVersion</field>
+				<field>DeletionMark</field>
+				<field>Description</field>
+				<field>Predefined</field>
+				<field>PredefinedDataName</field>
+				<field>Ref</field>
+				<field>Автор</field>
+				<field>Вид</field>
+				<field>Комментарий</field>
+				<field>КонтактноеЛицо</field>
+				<field>Контрагент</field>
+				<field>Организация</field>
+				<field>Предмет</field>
+				<field>Предмет.LineNumber</field>
+				<field>Предмет.Файл</field>
+				<condition/>
+			</restrictionByCondition>
 		</right>
 		<right>
 			<name>View</name>
@@ -66,24 +99,73 @@
 		<right>
 			<name>Read</name>
 			<value>true</value>
-			<restrictionByCondition>
-				<field>Code</field>
-				<field>DataVersion</field>
-				<field>DeletionMark</field>
-				<field>Description</field>
-				<field>Predefined</field>
-				<field>PredefinedDataName</field>
-				<field>Ref</field>
-				<field>РабочаяГруппа</field>
-				<field>РабочаяГруппа.LineNumber</field>
-				<field>РабочаяГруппа.Рецензент</field>
-				<condition>ВидыДокументов ИЗ Справочник.ВидыДокументов КАК ВидыДокументов, Справочник.ВнутренниеДокументы КАК ВнутренниеДокументы
-ГДЕ ВидыДокументов.РабочаяГруппа.Рецензент = &amp;ТекущийПользователь</condition>
-			</restrictionByCondition>
 		</right>
 		<right>
 			<name>View</name>
 			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.ВидыДокументов.StandardAttribute.PredefinedDataName</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.ВидыДокументов.StandardAttribute.Predefined</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.ВидыДокументов.StandardAttribute.Ref</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.ВидыДокументов.StandardAttribute.DeletionMark</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.ВидыДокументов.StandardAttribute.IsFolder</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.ВидыДокументов.StandardAttribute.Owner</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.ВидыДокументов.StandardAttribute.Parent</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.ВидыДокументов.StandardAttribute.Description</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.ВидыДокументов.StandardAttribute.Code</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
 		</right>
 	</object>
 </Rights>
