@@ -1,26 +1,26 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
-	<Catalog uuid="58777e3e-e5df-4b58-8820-6b79dfb07956">
+	<Catalog uuid="a7cb3a95-312e-4c3a-8bf5-5419676df0f7">
 		<InternalInfo>
 			<xr:GeneratedType name="CatalogObject.КонтактныеЛицаКонтрагентов" category="Object">
-				<xr:TypeId>61924e14-b678-4204-bc78-d0fbf9530bcf</xr:TypeId>
-				<xr:ValueId>6ab3b0fa-bd2a-4a29-9fa2-b5bf41ddcec3</xr:ValueId>
+				<xr:TypeId>74aab509-bf0b-4ea2-b96b-1cf52d239461</xr:TypeId>
+				<xr:ValueId>f6d17ff4-e5ad-4adf-b55e-5473b2dc32b8</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogRef.КонтактныеЛицаКонтрагентов" category="Ref">
-				<xr:TypeId>93ac8d9b-2b8e-4545-8810-9ed5018c2c91</xr:TypeId>
-				<xr:ValueId>922758e2-9e50-48f2-bd65-ba13acba9667</xr:ValueId>
+				<xr:TypeId>80d4cbb6-e4df-4688-841e-b727f5639526</xr:TypeId>
+				<xr:ValueId>a90ccbd4-eea7-47a4-b94e-da5b7744bfbc</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogSelection.КонтактныеЛицаКонтрагентов" category="Selection">
-				<xr:TypeId>24b76764-4385-4055-ab01-1fa6647565d7</xr:TypeId>
-				<xr:ValueId>4494226c-a667-4fea-8651-1c978d3ba465</xr:ValueId>
+				<xr:TypeId>23d3ad56-1f8d-4a94-8739-e4e6a94da513</xr:TypeId>
+				<xr:ValueId>9727dce6-de8b-4a38-b7b6-b0fbfc1dddb8</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogList.КонтактныеЛицаКонтрагентов" category="List">
-				<xr:TypeId>cc15dba4-5d30-4c9f-92c4-ce9173715a2c</xr:TypeId>
-				<xr:ValueId>afc5f5f1-abdb-4dbd-a165-53a1f2058988</xr:ValueId>
+				<xr:TypeId>4b6f6f0e-12ea-4c27-91b5-293e1549fcee</xr:TypeId>
+				<xr:ValueId>7dfa6c94-a07e-42df-b5c9-287363b50fa9</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogManager.КонтактныеЛицаКонтрагентов" category="Manager">
-				<xr:TypeId>16fbaa00-ad4f-4124-bc76-0204ef207ad2</xr:TypeId>
-				<xr:ValueId>5208f413-04b9-47ab-87a9-1a08df634957</xr:ValueId>
+				<xr:TypeId>2028d44b-3967-4891-9d58-2b5a870fb960</xr:TypeId>
+				<xr:ValueId>ae34c426-a858-4d55-8811-c8160902159b</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
@@ -89,7 +89,7 @@
 			<ExecuteAfterWriteDataHistoryVersionProcessing>false</ExecuteAfterWriteDataHistoryVersionProcessing>
 		</Properties>
 		<ChildObjects>
-			<Attribute uuid="4c754d40-37cc-4547-8560-a6c4fde8f93f">
+			<Attribute uuid="d07014c1-e57e-4ed7-8e07-6e03167a330c">
 				<Properties>
 					<Name>ФИО</Name>
 					<Synonym>
@@ -102,7 +102,7 @@
 					<Type>
 						<v8:Type>xs:string</v8:Type>
 						<v8:StringQualifiers>
-							<v8:Length>80</v8:Length>
+							<v8:Length>100</v8:Length>
 							<v8:AllowedLength>Variable</v8:AllowedLength>
 						</v8:StringQualifiers>
 					</Type>
@@ -133,7 +133,7 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="3bca47dd-2b70-4d3d-873b-2b92ed8b8dd0">
+			<Attribute uuid="10ec2e48-f296-4794-9d7a-74a79ac38cad">
 				<Properties>
 					<Name>Телефон</Name>
 					<Synonym>
@@ -146,7 +146,7 @@
 					<Type>
 						<v8:Type>xs:string</v8:Type>
 						<v8:StringQualifiers>
-							<v8:Length>15</v8:Length>
+							<v8:Length>12</v8:Length>
 							<v8:AllowedLength>Variable</v8:AllowedLength>
 						</v8:StringQualifiers>
 					</Type>
@@ -162,6 +162,46 @@
 					<MaxValue xsi:nil="true"/>
 					<FillFromFillingValue>false</FillFromFillingValue>
 					<FillValue xsi:type="xs:string"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Use>ForItem</Use>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>Use</DataHistory>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="fd3b2d17-8cc8-4e6d-976b-7505a14241c1">
+				<Properties>
+					<Name>Контрагент</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Контрагент</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:nil="true"/>
 					<FillChecking>DontCheck</FillChecking>
 					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
 					<ChoiceParameterLinks/>

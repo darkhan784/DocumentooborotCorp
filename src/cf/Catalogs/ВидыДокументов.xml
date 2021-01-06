@@ -1,26 +1,26 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
-	<Catalog uuid="b1709219-6800-40a0-abbe-3a341f2bdee0">
+	<Catalog uuid="986ad1dd-f3a3-4ab3-b198-e1594feaaee0">
 		<InternalInfo>
 			<xr:GeneratedType name="CatalogObject.ВидыДокументов" category="Object">
-				<xr:TypeId>ebf116ca-2679-433e-95a8-4ae8dcb56508</xr:TypeId>
-				<xr:ValueId>42260886-6648-4654-8f48-74a38e3f5566</xr:ValueId>
+				<xr:TypeId>342673c7-d355-416f-9c6c-8ac2b8f72c7f</xr:TypeId>
+				<xr:ValueId>a59fb083-dde7-4225-b88e-64933e667111</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogRef.ВидыДокументов" category="Ref">
-				<xr:TypeId>211763ca-2b66-4c60-b524-a3d2b511996a</xr:TypeId>
-				<xr:ValueId>0b5c8a2f-e5a1-4322-93ab-5a2f3b6d3a87</xr:ValueId>
+				<xr:TypeId>ce89678c-8d00-4bdb-8beb-b425b682fc7d</xr:TypeId>
+				<xr:ValueId>3bc833f8-0934-4127-a95a-b8cd93162863</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogSelection.ВидыДокументов" category="Selection">
-				<xr:TypeId>fb59d8a9-c70a-48fd-9040-37758d0a74f5</xr:TypeId>
-				<xr:ValueId>48da9bf1-b18c-4217-945b-98b1b17e2f15</xr:ValueId>
+				<xr:TypeId>2c18e7db-d226-4fc9-91bf-12590a0e9a62</xr:TypeId>
+				<xr:ValueId>e6fee583-f7b2-4279-a9da-8f2ea7148458</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogList.ВидыДокументов" category="List">
-				<xr:TypeId>c1ff6d14-8229-4779-a4b7-de6d13ac80ff</xr:TypeId>
-				<xr:ValueId>b5dbfff1-509f-466b-a655-9c07a7481e5a</xr:ValueId>
+				<xr:TypeId>24bead8a-a6be-4c52-87a1-5a43571892f9</xr:TypeId>
+				<xr:ValueId>dbc8088c-189a-4c36-8807-85fb8021df32</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogManager.ВидыДокументов" category="Manager">
-				<xr:TypeId>f49cd299-8d45-4721-ba2d-e9edbda6c793</xr:TypeId>
-				<xr:ValueId>339e9092-0a49-493c-bc1a-01af5f09ee7d</xr:ValueId>
+				<xr:TypeId>e3db7fae-b701-4a7c-b932-ada9e84ec979</xr:TypeId>
+				<xr:ValueId>2ac294f8-d0e7-4aad-983f-10e3ffc55810</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
@@ -87,15 +87,15 @@
 			<ExecuteAfterWriteDataHistoryVersionProcessing>false</ExecuteAfterWriteDataHistoryVersionProcessing>
 		</Properties>
 		<ChildObjects>
-			<TabularSection uuid="47052cb5-9817-4ec5-a640-9e31d39e621a">
+			<TabularSection uuid="db29265a-a43c-4106-92d0-9e9e1fa295ca">
 				<InternalInfo>
 					<xr:GeneratedType name="CatalogTabularSection.ВидыДокументов.РабочаяГруппа" category="TabularSection">
-						<xr:TypeId>08ceb1f7-2b67-4c72-b029-3d075e7690f3</xr:TypeId>
-						<xr:ValueId>b3afb833-0247-45c3-b633-e101f6217677</xr:ValueId>
+						<xr:TypeId>44285432-4fb9-44db-a7a2-215f426674b0</xr:TypeId>
+						<xr:ValueId>4130cd73-b024-400b-bcab-2ecb07fc5ca3</xr:ValueId>
 					</xr:GeneratedType>
 					<xr:GeneratedType name="CatalogTabularSectionRow.ВидыДокументов.РабочаяГруппа" category="TabularSectionRow">
-						<xr:TypeId>d46a2bb0-2679-44e0-b623-8208d1f5ead2</xr:TypeId>
-						<xr:ValueId>4618f560-8683-45ec-907f-2d99bf3e8fa3</xr:ValueId>
+						<xr:TypeId>729db618-3835-46e9-a76b-c036aa0e9364</xr:TypeId>
+						<xr:ValueId>522d6e45-65cc-4530-a3ad-2bff86c2616a</xr:ValueId>
 					</xr:GeneratedType>
 				</InternalInfo>
 				<Properties>
@@ -112,13 +112,13 @@
 					<Use>ForItem</Use>
 				</Properties>
 				<ChildObjects>
-					<Attribute uuid="0dba5f71-b8df-4e33-af0e-0f40786af4c5">
+					<Attribute uuid="0a5e24f0-d1b0-496e-b75f-41f8907d21ab">
 						<Properties>
-							<Name>Рецензент</Name>
+							<Name>Роль</Name>
 							<Synonym>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Рецензент</v8:content>
+									<v8:content>Роль</v8:content>
 								</v8:item>
 							</Synonym>
 							<Comment/>

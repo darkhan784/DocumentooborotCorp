@@ -1,26 +1,26 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
-	<Catalog uuid="062fe18e-630d-4e52-83b7-c1148070a269">
+	<Catalog uuid="229aee48-12a2-4b0f-a245-b41d9b1d1e96">
 		<InternalInfo>
 			<xr:GeneratedType name="CatalogObject.Файлы" category="Object">
-				<xr:TypeId>e8171eb7-e943-466b-820f-52c8a5ee3def</xr:TypeId>
-				<xr:ValueId>b94ea97a-5fed-4fec-922e-f92419b1e5a6</xr:ValueId>
+				<xr:TypeId>2851c3e6-6602-417c-9069-fae594188a25</xr:TypeId>
+				<xr:ValueId>98fc97a2-eecf-457d-a613-df2214f0f585</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogRef.Файлы" category="Ref">
-				<xr:TypeId>23b4a6cf-ded4-4499-8c53-bd4679bd338f</xr:TypeId>
-				<xr:ValueId>5ef71d07-8e66-4e07-a198-3be3d682ca48</xr:ValueId>
+				<xr:TypeId>3a90fb79-5b45-4806-9704-07eec5ea4fe4</xr:TypeId>
+				<xr:ValueId>c104c45d-b6c5-449d-aafe-8b1698c8238e</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogSelection.Файлы" category="Selection">
-				<xr:TypeId>432eff00-acce-4dd8-99f8-b23e217fd558</xr:TypeId>
-				<xr:ValueId>0b146a57-b805-4e9e-8055-8e7a208ff1fa</xr:ValueId>
+				<xr:TypeId>01a1fd8f-7508-45d1-931f-5a551de406b1</xr:TypeId>
+				<xr:ValueId>2022af25-3a83-48aa-a867-7bc60c891166</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogList.Файлы" category="List">
-				<xr:TypeId>9b00b1e3-ca30-44ce-9d4f-499b3251a4a3</xr:TypeId>
-				<xr:ValueId>b8a98e29-c932-4a48-898a-6594f74d8ea1</xr:ValueId>
+				<xr:TypeId>165a2bc6-8dea-46ac-aa40-322ebd71be4c</xr:TypeId>
+				<xr:ValueId>3f697888-5629-4ef5-8893-c44cf4fe3de2</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogManager.Файлы" category="Manager">
-				<xr:TypeId>c483985a-71ac-4aef-b7be-f13e132c343a</xr:TypeId>
-				<xr:ValueId>6b4c5be4-838f-4161-9387-4e0e3e3eb8e2</xr:ValueId>
+				<xr:TypeId>cf69070e-b321-4c9e-84ff-8e685f137a3f</xr:TypeId>
+				<xr:ValueId>563249b8-4233-42a1-961e-ce678d61527c</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
@@ -87,13 +87,13 @@
 			<ExecuteAfterWriteDataHistoryVersionProcessing>false</ExecuteAfterWriteDataHistoryVersionProcessing>
 		</Properties>
 		<ChildObjects>
-			<Attribute uuid="a37b24fe-dd87-4daa-853b-8cb8ed52028b">
+			<Attribute uuid="39ac722f-f6de-4b73-8ba0-b00c7fb0b86c">
 				<Properties>
-					<Name>Хранилище</Name>
+					<Name>Файл</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Хранилище</v8:content>
+							<v8:content>Файл</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -127,20 +127,20 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="49cf3e8e-5ff3-4e7c-a4cb-aefebcd6827b">
+			<Attribute uuid="cfc24eae-4988-450c-a095-5f40e11abab5">
 				<Properties>
-					<Name>Расширение</Name>
+					<Name>ИмяФайла</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Расширение</v8:content>
+							<v8:content>Имя файла</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
 						<v8:StringQualifiers>
-							<v8:Length>10</v8:Length>
+							<v8:Length>40</v8:Length>
 							<v8:AllowedLength>Variable</v8:AllowedLength>
 						</v8:StringQualifiers>
 					</Type>
@@ -171,91 +171,7 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="67beca05-c2b8-47dd-8ce1-6322d2562051">
-				<Properties>
-					<Name>Содержание</Name>
-					<Synonym>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Содержание</v8:content>
-						</v8:item>
-					</Synonym>
-					<Comment/>
-					<Type>
-						<v8:Type>xs:string</v8:Type>
-						<v8:StringQualifiers>
-							<v8:Length>10</v8:Length>
-							<v8:AllowedLength>Variable</v8:AllowedLength>
-						</v8:StringQualifiers>
-					</Type>
-					<PasswordMode>false</PasswordMode>
-					<Format/>
-					<EditFormat/>
-					<ToolTip/>
-					<MarkNegatives>false</MarkNegatives>
-					<Mask/>
-					<MultiLine>false</MultiLine>
-					<ExtendedEdit>false</ExtendedEdit>
-					<MinValue xsi:nil="true"/>
-					<MaxValue xsi:nil="true"/>
-					<FillFromFillingValue>false</FillFromFillingValue>
-					<FillValue xsi:type="xs:string"/>
-					<FillChecking>DontCheck</FillChecking>
-					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
-					<ChoiceParameterLinks/>
-					<ChoiceParameters/>
-					<QuickChoice>Auto</QuickChoice>
-					<CreateOnInput>Auto</CreateOnInput>
-					<ChoiceForm/>
-					<LinkByType/>
-					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-					<Use>ForItem</Use>
-					<Indexing>DontIndex</Indexing>
-					<FullTextSearch>Use</FullTextSearch>
-					<DataHistory>Use</DataHistory>
-				</Properties>
-			</Attribute>
-			<Attribute uuid="95528ebc-a1ec-4ad7-8b70-d36eac926145">
-				<Properties>
-					<Name>ОбновитьСодержание</Name>
-					<Synonym>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Обновить содержание</v8:content>
-						</v8:item>
-					</Synonym>
-					<Comment/>
-					<Type>
-						<v8:Type>xs:boolean</v8:Type>
-					</Type>
-					<PasswordMode>false</PasswordMode>
-					<Format/>
-					<EditFormat/>
-					<ToolTip/>
-					<MarkNegatives>false</MarkNegatives>
-					<Mask/>
-					<MultiLine>false</MultiLine>
-					<ExtendedEdit>false</ExtendedEdit>
-					<MinValue xsi:nil="true"/>
-					<MaxValue xsi:nil="true"/>
-					<FillFromFillingValue>false</FillFromFillingValue>
-					<FillValue xsi:nil="true"/>
-					<FillChecking>DontCheck</FillChecking>
-					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
-					<ChoiceParameterLinks/>
-					<ChoiceParameters/>
-					<QuickChoice>Auto</QuickChoice>
-					<CreateOnInput>Auto</CreateOnInput>
-					<ChoiceForm/>
-					<LinkByType/>
-					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-					<Use>ForItem</Use>
-					<Indexing>DontIndex</Indexing>
-					<FullTextSearch>Use</FullTextSearch>
-					<DataHistory>Use</DataHistory>
-				</Properties>
-			</Attribute>
-			<Attribute uuid="f3b875e3-de19-4130-8a5a-7cdd9e536616">
+			<Attribute uuid="4a7169f6-b749-418b-8aa7-3bce20668770">
 				<Properties>
 					<Name>Автор</Name>
 					<Synonym>

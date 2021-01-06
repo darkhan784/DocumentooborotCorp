@@ -188,12 +188,15 @@
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
+			<Subsystem>Справочники</Subsystem>
+			<Subsystem>Документы</Subsystem>
 			<SessionParameter>ТекущийПользователь</SessionParameter>
-			<Role>ПолныеПрава</Role>
-			<Role>ЧтениеДокументов</Role>
-			<Role>ИзменениеДокументов</Role>
+			<Role>Пользователь</Role>
 			<Role>ЧтениеКонтрагентов</Role>
 			<Role>ИзменениеКонтрагентов</Role>
+			<Role>ЧтениеДокументов</Role>
+			<Role>ИзменениеДокументов</Role>
+			<Role>Администратор</Role>
 			<Catalog>Валюты</Catalog>
 			<Catalog>Организации</Catalog>
 			<Catalog>Подразделения</Catalog>

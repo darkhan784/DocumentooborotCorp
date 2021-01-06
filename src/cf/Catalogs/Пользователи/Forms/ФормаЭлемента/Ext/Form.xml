@@ -4,10 +4,15 @@
 	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
 	<Events>
-		<Event name="ChoiceProcessing">ОбработкаВыбора</Event>
 		<Event name="OnOpen">ПриОткрытии</Event>
 	</Events>
 	<ChildItems>
+		<InputField name="Код" id="1">
+			<DataPath>Объект.Code</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="КодКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="КодРасширеннаяПодсказка" id="3"/>
+		</InputField>
 		<InputField name="Наименование" id="4">
 			<DataPath>Объект.Description</DataPath>
 			<EditMode>EnterOnInput</EditMode>
@@ -16,16 +21,12 @@
 		</InputField>
 		<InputField name="Роль" id="7">
 			<DataPath>Объект.Роль</DataPath>
-			<EditMode>EnterOnInput</EditMode>
-			<DropListButton>false</DropListButton>
 			<ChoiceButton>true</ChoiceButton>
 			<ClearButton>true</ClearButton>
 			<ContextMenu name="РольКонтекстноеМеню" id="8"/>
 			<ExtendedTooltip name="РольРасширеннаяПодсказка" id="9"/>
 			<Events>
 				<Event name="StartChoice">РольНачалоВыбора</Event>
-				<Event name="Opening">ПриОткрытии</Event>
-				<Event name="StartListChoice">РольНачалоВыбораНаСервере</Event>
 				<Event name="ChoiceProcessing">РольОбработкаВыбора</Event>
 			</Events>
 		</InputField>

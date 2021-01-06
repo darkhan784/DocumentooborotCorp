@@ -4,17 +4,17 @@
 	<setForAttributesByDefault>true</setForAttributesByDefault>
 	<independentRightsOfChildObjects>false</independentRightsOfChildObjects>
 	<object>
-		<name>Catalog.ВидыДокументов.TabularSection.РабочаяГруппа.Attribute.Рецензент</name>
+		<name>Subsystem.Документы</name>
 		<right>
-			<name>Edit</name>
-			<value>false</value>
+			<name>View</name>
+			<value>true</value>
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ВидыДокументов.TabularSection.РабочаяГруппа</name>
+		<name>Subsystem.Справочники</name>
 		<right>
-			<name>Edit</name>
-			<value>false</value>
+			<name>View</name>
+			<value>true</value>
 		</right>
 	</object>
 	<object>
@@ -78,97 +78,24 @@
 				<field>PredefinedDataName</field>
 				<field>Ref</field>
 				<field>Автор</field>
-				<field>Вид</field>
+				<field>ВидДокумента</field>
 				<field>Комментарий</field>
 				<field>КонтактноеЛицо</field>
 				<field>Контрагент</field>
 				<field>Организация</field>
-				<field>Предмет</field>
-				<field>Предмет.LineNumber</field>
-				<field>Предмет.Файл</field>
-				<condition>ВнутренниеДокументы ИЗ Справочник.ВнутренниеДокументы КАК ВнутренниеДокументы
-	ЛЕВОЕ СОЕДИНЕНИЕ Справочник.ВидыДокументов КАК ВидыДокументов
-	ПО ВнутренниеДокументы.Вид = ВидыДокументов.Ссылка
-ГДЕ ВидыДокументов.РабочаяГруппа.Рецензент = &amp;ТекущийПользователь</condition>
+				<field>Предметы</field>
+				<field>Предметы.LineNumber</field>
+				<field>Предметы.Предмет</field>
+				<condition>ГДЕ ВидДокумента.РабочаяГруппа.Роль = &amp;ТекущийПользователь</condition>
 			</restrictionByCondition>
 		</right>
 		<right>
 			<name>View</name>
 			<value>true</value>
 		</right>
-	</object>
-	<object>
-		<name>Catalog.ВидыДокументов</name>
 		<right>
-			<name>Read</name>
+			<name>InputByString</name>
 			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.ВидыДокументов.StandardAttribute.PredefinedDataName</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.ВидыДокументов.StandardAttribute.Predefined</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.ВидыДокументов.StandardAttribute.Ref</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.ВидыДокументов.StandardAttribute.DeletionMark</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.ВидыДокументов.StandardAttribute.IsFolder</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.ВидыДокументов.StandardAttribute.Owner</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.ВидыДокументов.StandardAttribute.Parent</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.ВидыДокументов.StandardAttribute.Description</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.ВидыДокументов.StandardAttribute.Code</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
 		</right>
 	</object>
 </Rights>
