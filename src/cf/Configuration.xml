@@ -190,6 +190,7 @@
 			<Language>Русский</Language>
 			<Subsystem>Справочники</Subsystem>
 			<Subsystem>Документы</Subsystem>
+			<Subsystem>РегистрыСведений</Subsystem>
 			<SessionParameter>ТекущийПользователь</SessionParameter>
 			<Role>Пользователь</Role>
 			<Role>ЧтениеКонтрагентов</Role>
@@ -197,6 +198,9 @@
 			<Role>ЧтениеДокументов</Role>
 			<Role>ИзменениеДокументов</Role>
 			<Role>Администратор</Role>
+			<Role>СогласованиеДокументов</Role>
+			<CommonModule>ОбщийМодульПолнотекстовыйПоиск</CommonModule>
+			<ScheduledJob>ПолнотекстовыйПоиск</ScheduledJob>
 			<Catalog>Валюты</Catalog>
 			<Catalog>Организации</Catalog>
 			<Catalog>Подразделения</Catalog>
@@ -207,6 +211,8 @@
 			<Catalog>Файлы</Catalog>
 			<Catalog>ВнутренниеДокументы</Catalog>
 			<Catalog>ВидыДокументов</Catalog>
+			<Enum>СогласованностьДокумента</Enum>
+			<InformationRegister>ФИОФизическихЛиц</InformationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
